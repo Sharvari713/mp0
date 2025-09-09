@@ -1,1 +1,70 @@
-/* Your CSS here. */
+body {
+    background-color: #36454F; /* Dark Charcoal Grey - Similar to your linked image */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    min-height: 100vh; /* Ensure the body takes up the full viewport height */
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #f0f0f0; /* Light text color */
+}
+
+.resume-card {
+    background-color: #4A4A4A; /* A distinct, slightly lighter grey for the card */
+    max-width: 800px;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Slightly stronger shadow for depth */
+    text-align: center; /* Center the text inside the card */
+    line-height: 1.6;
+    margin: 20px; /* Add some margin around the card so it doesn't touch edges on smaller screens */
+}
+
+/* Profile Image Styling (copied from previous examples, assuming you want it to remain) */
+img {
+  border-radius: 50%; /* Makes the image circular */
+  width: 150px; /* Set a fixed width */
+  height: 150px; /* Set a fixed height */
+  object-fit: cover; /* Ensures the image covers the area without distortion */
+  margin-bottom: 20px;
+  border: 2px solid #777; /* Subtle border around the image */
+}
+
+
+h1 {
+    font-size: 2.5em;
+    margin-top: 0;
+    margin-bottom: 10px; /* Reduced margin for closer spacing to email */
+    color: #ffffff; /* Ensure name is white */
+}
+
+/* Email Styling */
+p.email { /* Targeting paragraph with class "email" */
+  font-size: 1.1em;
+  color: #bbbbbb; /* Slightly lighter than body text */
+  margin-bottom: 15px;
+  font-style: italic;
+}
+
+/* GitHub Link Styling */
+.github-link {
+  color: #a0a0ff; /* Purple-ish color for the link */
+  text-decoration: none; /* Remove underline */
+  font-size: 1.2em;
+  margin-bottom: 30px;
+  display: inline-block; /* Make it a block for margin to apply vertically */
+}
+
+.github-link:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+/* General paragraph styling for the main text */
+p {
+    margin: 0 0 15px; /* Spacing between paragraphs */
+    font-size: 1.1em; /* Consistent font size for main text */
+}
+
+p:last-child {
+    margin-bottom: 0; /* No margin on the last paragraph */
+}
