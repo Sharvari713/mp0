@@ -1,33 +1,33 @@
 body {
-    background-color: #36454F; /* Dark Charcoal Grey - Similar to your linked image */
+    background-color: #f4f5f6; 
     display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    min-height: 100vh; /* Ensure the body takes up the full viewport height */
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh; 
     margin: 0;
     font-family: Arial, sans-serif;
-    color: #f0f0f0; /* Light text color */
+    color: #f0f0f0; 
 }
 
 .resume-card {
-    background-color: #4A4A4A; /* A distinct, slightly lighter grey for the card */
+    background-color: #4A4A4A; 
     max-width: 800px;
     padding: 40px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Slightly stronger shadow for depth */
-    text-align: center; /* Center the text inside the card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+    text-align: center; 
     line-height: 1.6;
-    margin: 20px; /* Add some margin around the card so it doesn't touch edges on smaller screens */
+    margin: 20px; 
 }
 
 /* Profile Image Styling (copied from previous examples, assuming you want it to remain) */
 img {
   border-radius: 50%; /* Makes the image circular */
-  width: 150px; /* Set a fixed width */
-  height: 150px; /* Set a fixed height */
-  object-fit: cover; /* Ensures the image covers the area without distortion */
+  width: 150px; 
+  height: 150px; 
+  object-fit: cover; 
   margin-bottom: 20px;
-  border: 2px solid #777; /* Subtle border around the image */
+  border: 2px solid #8b8b8b; /* Subtle border around the image */
 }
 
 
